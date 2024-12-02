@@ -1,4 +1,4 @@
+import streamlit as st
+st.title("What should you do about your :blue[Body] :muscle:")
 
-import streamlit as st 
-st.title("เห็นทีเถอะ กุจะบ้า")
-
+user_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
