@@ -3,7 +3,7 @@ import openai
 st.title("What should you do about your :blue[Body] :muscle:")
 
 user_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
-openai.api_key = "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"
+openai.api_key = "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"
 def get_openai_response(user_input):
        """
        This function sends the user input to OpenAI's Chat API and returns the model's response.
@@ -26,8 +26,6 @@ def get_openai_response(user_input):
 
    # Streamlit app layout
    
-st.title("Your Advanced Streamlit Chatbot")
-
 user_input = st.text_input("What would you like to ask?")
 
 if st.button("Submit"):
