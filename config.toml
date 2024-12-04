@@ -2,8 +2,8 @@
 showErrorDetails = false
 
 [theme]
-primaryColor="#F8F99E"
-backgroundColor="#F8F99E"
+primaryColor="#451b04"
+backgroundColor="#aabda0"
 secondaryBackgroundColor="#FFFFFF"
 textColor="#333333"
 font="sans serif"
