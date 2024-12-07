@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import pandas as pd
 from io import BytesIO
-import openpyxl
+
 
 st.set_page_config(page_title="What should you do to your body",page_icon=":muscle:",layout="wide")
 
