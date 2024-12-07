@@ -2,10 +2,11 @@ import streamlit as st
 import openai
 import pandas as pd
 from io import BytesIO
+import openpyxl
 
-st.set_page_config(page_title="What should you do about your body",page_icon=":muscle:",layout="wide")
+st.set_page_config(page_title="What should you do to your body",page_icon=":muscle:",layout="wide")
 
-st.title("What should you do about your :blue[Body] :muscle:")
+st.title("What should you do to your :blue[Body] :muscle:")
 
 user_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
