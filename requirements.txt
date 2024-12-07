@@ -7,5 +7,6 @@ referencing==0.35.1
 requests==2.32.3
 streamlit==1.40.2
 toml==0.10.2
-torch==2.4.1+cpu
-et-xmlfile==3.1.5
+et-xmlfile==2.0.0
+
+
